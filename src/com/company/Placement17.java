@@ -29,8 +29,6 @@ public class Placement17 {
         System.out.println("zero:"+ zero);
     }
     public static void main(String[]args){
-       Scanner sc=new Scanner(System.in);
        shortlist();
-
     }
 }
