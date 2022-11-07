@@ -17,8 +17,8 @@ public class Placement26 {
 //        }
 
         boolean isAscending=true;
-        for(int i=0;i<arr.length-1; i++){
-            if(arr[i]>arr[i+1]){
+        for(int i=0;i<arr.length-1; i++){ //Notice: the length of termination is (arr.length-1)
+            if(arr[i]>arr[i+1]){ //this is the condition for descending order
                 isAscending=false;
             }
         }
